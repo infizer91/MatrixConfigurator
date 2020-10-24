@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>О программе</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="inputMethodHints">
+   <set>Qt::ImhMultiLine|Qt::ImhNoEditMenu</set>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>11</x>
+     <y>21</y>
+     <width>364</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Конфигуратор матричного дисплея (MattDualCANconfigurator)</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>11</x>
+     <y>43</y>
+     <width>68</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Версия: 0.2</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>11</x>
+     <y>65</y>
+     <width>79</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Автор: infizer</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>11</x>
+     <y>87</y>
+     <width>198</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Домашняя страница: отсутствует</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>120</y>
+     <width>461</width>
+     <height>271</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="inputMethodHints">
+    <set>Qt::ImhNoEditMenu|Qt::ImhNoTextHandles</set>
+   </property>
+   <property name="undoRedoEnabled">
+    <bool>false</bool>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;     С помощью данного конфигуратора возможна настройка и активация скрытых параметров в цветных матричных дисплеях Peugeot/Citroen, которые в DiagBox указаны как  MATT_C_2010, и работающие в шине CAN2010. &lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;     Для того, чтобы использовать данный конфигуратор, необходимо подключить один Arduino+каншилд к порту 0 (автомобиль), а другой - к порту 1 (дисплей). После подключения оборудования необходимо зайти в DiagBox версии от 7.02 до 7.44, нажать в данной программе кнопку чтение параметров, в DiagBox пройти в меню &amp;quot;Ручное телекодирование&amp;quot;, активировать/деактивировать/выбрать необходимые опции в конфигураторе, активировать новые параметры для телекодирования, в DiagBox запустить телекодирование. Через некоторое время параметры в дисплее изменятся, а DiagBox выдаст ошибку телекодирования, которую необходимо игнорировать &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
